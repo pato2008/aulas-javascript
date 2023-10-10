@@ -1,3 +1,7 @@
+"use script"
+
+
+ let resultado;
 let nota1 =7;
 let nota2 =6;
 
@@ -13,3 +17,5 @@ if(media >= 7){
 else{
     console.log("reprovado")
 }
+
+console.log(resultado)
