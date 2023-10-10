@@ -71,11 +71,26 @@ console.log(`Nome: ${pessoa.nome}`);
 console.log(`Celular: ${pessoa.telefones[1]}`);
 console.log(`Peso: ${pessoa.medidas.peso} kg `);
 
+//array de objeto 
+let aluno = [
+    {
+        nome: "naruto",
+        idade: 10
 
+    },
+    {
+        nome: "guts",
+        idade: 30
+    },
+    {
+        nome: "seiya",
+        idade: 120
+    }
+];
 
-
-
-
+console.log(aluno[1].nome);
+console.log(aluno[0].nome);
+console.log(`originalmente o cavaleiro de pegazos era o ${aluno[2].nome }`)
 
 
 
