@@ -2,19 +2,18 @@
 
 comandos mais comuns: if,else,else if*/
 
-let usuario = "juean";
-let idade = 25;
-
+let usuario = prompt("ola qual e seu nome");
+let idade = prompt("quantos anos vc tem");
+let mensagem;
 
 // verificar a idade e derteminar se e maior ou menor de idade
 
-if (idade >= 18) {
-    console.log($(usuario)`e maior de idade!`);
+if (idade >= 60) {
+    mensagem = "idoso";
+}else if (idade >= 18) {
+    mensagem = "adulto";
 } else {
-    console.log($(usuario)`e menor de idade`);
+    mensagem = "menor";
 }
 
-
-
-
-console.log($(usuario)`e $(mensgen) de idade`);
+console.log(mensagem);
