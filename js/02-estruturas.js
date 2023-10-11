@@ -90,7 +90,7 @@ let aluno = [
 
 console.log(aluno[1].nome);
 console.log(aluno[0].nome);
-console.log(`originalmente o cavaleiro de pegazos era o ${aluno[2].nome }`)
+console.log(`originalmente o cavaleiro de pegazos era o ${aluno[2].nome}`)
 
 
 

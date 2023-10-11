@@ -1,20 +1,20 @@
 "use script"
 
 
- let resultado;
-let nota1 =7;
-let nota2 =6;
+let resultado;
+let nota1 = 7;
+let nota2 = 6;
 
-let media= ((nota1 + nota2) / 2);
+let media = ((nota1 + nota2) / 2);
 console.log(media);
-if(media >= 7){
+if (media >= 7) {
     console.log("aprovado")
 }
- else if (media>= 5){
+else if (media >= 5) {
     console.log("recuperaçao")
 }
 
-else{
+else {
     console.log("reprovado")
 }
 

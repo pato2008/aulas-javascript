@@ -10,7 +10,7 @@ let mensagem;
 
 if (idade >= 60) {
     mensagem = "idoso";
-}else if (idade >= 18) {
+} else if (idade >= 18) {
     mensagem = "adulto";
 } else {
     mensagem = "menor";
