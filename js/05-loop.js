@@ -17,9 +17,19 @@ obs:normalmnete o jogo e comtrolado atraveis de uma varivel contadora.
 
 // exmplo do/while
 
-let contador =10;
-do{
-    console.log(`contador vale: ${contador}`);
-    contador++
+// let i =10;
+// do{
+//     console.log(`contador vale: ${i}`);
+//     i++
+// }
+// while(i <= 3)
+ 
+
+
+
+// exemplo for
+
+for(let i = 1; i<= 10; i++){
+console.log( `1 vale ${i}`);
 }
-while(contador <= 3)
+
