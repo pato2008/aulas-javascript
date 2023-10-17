@@ -29,7 +29,12 @@ obs:normalmnete o jogo e comtrolado atraveis de uma varivel contadora.
 
 // exemplo for
 
-for(let i = 1; i<= 10; i++){
-console.log( `1 vale ${i}`);
-}
+// for(let i = 1; i<= 10; i++){
+// console.log( `i vale ${i}`);
+// }
 
+/*loop com array */
+let clientes=["zorro","dio","gutz","casca","luffy"];
+
+for(let i = 0; i <= 4; i++
+)
