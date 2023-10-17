@@ -23,7 +23,7 @@ obs:normalmnete o jogo e comtrolado atraveis de uma varivel contadora.
 //     i++
 // }
 // while(i <= 3)
- 
+
 
 
 
@@ -34,7 +34,39 @@ obs:normalmnete o jogo e comtrolado atraveis de uma varivel contadora.
 // }
 
 /*loop com array */
-let clientes=["zorro","dio","gutz","casca","luffy"];
+// let clientes=["zorro","dio","gutz","casca","luffy"];
 
-for(let i = 0; i <= 4; i++
-)
+// for(let i = 0; i <= 4; i++
+// )
+
+
+let bandas = ["zorro", "dio", "gutz", "casca", "luffy"];
+
+for (let banda of bandas) {
+    console.log(banda);
+}
+
+
+
+let livro = {
+    titulo: "HTML5",
+    autor: "Maujor",
+    site: "http://maujor.com",
+    ano: 2016,
+    editoria: "novatec",
+    edicao: 3,
+};
+
+//
+for (let dados in livro) {
+
+    //acessar apemas a propriedade
+    //consle.log(dados);
+    //acssar valaor de cada propriedade
+    // console.log(livro[dados]);
+
+
+    console.log(`${propriedade}  -> ${livro[propriedade]}`);
+}
+
+
