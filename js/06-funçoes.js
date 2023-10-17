@@ -52,23 +52,37 @@ let preco = 5500;
 let desconto = preco * 0.10;
 let precoFinal = preco - desconto;
 
-console.log(`preco: ${preco.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`
-);
+function formatarpreco(valor){ 
+   let opcoes = {
+        style:"currency",
+        currency:"BRL"
+    }
+return valor.toLocaleString("pt-br",opcoes)};
+
+
+
+console.log(`preco ${formatarpreco(preco)}`);
+   console.log(`desconto ${formatarpreco(desconto)}`)
+   console.log(`precofinal ${formatarpreco(precoFinal)}`)
+
+   
+// console.log(`preco: ${preco.toLocaleString("pt-br", {
+//     style: "currency",
+//     currency: "BRL"
+// })}`
+// );
 
 
 
 
-console.log(`desconto: ${desconto.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`
-);
+// console.log(`desconto: ${desconto.toLocaleString("pt-br", {
+//     style: "currency",
+//     currency: "BRL"
+// })}`
+// );
 
-console.log(`precofinal: ${precoFinal.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`
-);
+// console.log(`precofinal: ${precoFinal.toLocaleString("pt-br", {
+//     style: "currency",
+//     currency: "BRL"
+// })}`
+// );
