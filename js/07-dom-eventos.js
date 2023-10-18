@@ -28,9 +28,34 @@ titulo.style.textAlign = "center";//css inline via css
 titulo.classList.add("destaque");//classe css vai js]
 
 //seliciomando os links contidos na lista 
-const linksReferencia=document.querySelectorAll("ul li a");
+const linksReferencia = document.querySelectorAll("ul li a");
 console.log(linksReferencia);
 
-for(let i = 0 < quantidadelinks; i++ ;){
-    linksReferencia[i].set
+let quantidadelinks = linksReferencia.length
+
+for (let links of linksReferencia) {
+    links.setAttribute("traget", "_blank");
 }
+
+
+
+
+
+// for( let i = 0; i < quantidadelinks; i++ ){
+//     linksReferencia[i].setAttribute("traget",'_blank')
+// }
+
+
+//manipulando  eventos
+
+const pagina = document.querySelector("body");
+const exemplo01 = document.querySelector("#exemplo01");
+const mensagem = document.querySelector("#mensagem");
+
+exemplo01.addEventListener("click", function () {
+
+    pagina.style.fontFamily = "verdana";
+    mensagem.textContent = "fonte alterada";
+    mensagem.style.backgrondColor = "yellow";
+
+});
