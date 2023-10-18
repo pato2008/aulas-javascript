@@ -86,3 +86,35 @@ console.log(`preco ${formatarpreco(preco)}`);
 //     currency: "BRL"
 // })}`
 // );
+
+/*sobre Arrow function
+sintaze moderna para funçoes no js
+muito usado nas biblioteca
+
+
+a sintase geral e 
+cont algumNome = () => {};
+
+no entanto ,esta sintase pode ser mais consisa*/
+
+//versao 1
+// function dobra(valor){
+// return valor * 2;
+// };
+
+
+//versao 2
+// const dobra = (valor) => {
+//     return valor * 2;
+// };
+
+
+//versao 3
+
+const dobra = valor => valor * 2;
+
+
+//chamadas
+console.log( dobra(10) );
+console.log( dobra(1325) );
+console.log( dobra(55.47) );

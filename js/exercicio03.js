@@ -6,4 +6,12 @@ function converteMoeda(valorEmDolar) {
     console.log(`real: R$${valorEmReais.toFixed(2)}`);
 }
 
-converteMoeda(75); 
+converteMoeda(100); 
+
+function formataMoeda(valor){ 
+    let opcoes = {
+         style:"currency",
+         currency:"BRL"
+     }
+ return valor.toLocaleString("pt-br",opcoes)
+};
